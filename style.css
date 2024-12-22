@@ -59,7 +59,8 @@ a{
 
 .mains{
     width:100%;
-    height:1000px;
+    height:100%;
+    padding:20px;
 }
 
 img{
@@ -88,87 +89,4 @@ img{
     justify-content:flex-end;
     padding:10px;
     margin-right: 10px;
-}
-
-.jianjie{
-    width:90%;
-    height: 650px;
-    background-color:white;
-    margin:40px 5%;
-    box-shadow:3px 2px 1px lightgray;
-    border-radius: 10px;
-}
-
-.jianjie .msgs{
-    width:60%;
-    height: 100%;
-    float:left;
-    padding:40px;
-}
-
-.jianjie .msgs p{
-    font-size:20px;
-    margin:20px 0px;
-}
-
-.yuansu{
-    width:70px;
-    vertical-align: middle;/*垂直对齐*/
-}
-
-.jianjie span{
-    margin-left:10px;
-}
-
-.jianjie img.banner2{
-    width:40%;
-    height: 100%;
-    float:right;
-    padding:50px 20px;
-}
-
-.jietu{
-    width:90%;
-    height: 600px;
-    background-color:white;
-    margin:40px 5%;
-    box-shadow:3px 2px 1px lightgray;
-    border-radius: 10px;
-}
-
-.games li{
-    list-style:none;
-    width: calc(100%/3);
-    
-}
-
-.games{
-    width:100%;
-    height:auto;
-    padding:50px;
-    display:flex;
-    justify-content: space-around;
-}
-
-.jietu .msgs h1{
-    padding:40px;
-}
-
-.games li img{
-
-    width: 90%;
-    height: 80%;
-    display: inline-block;/*移动方向*/
-    transform:translateY(-20px);/*y轴 正为下，负为上*/
-}
-
-.games li h2{
-    display:inline-block;
-    transform: translateY(-265px);
-}
-
-.games li h3{
-    display:inline-block;
-    transform: translateY(-20px);
-    align-items: center;
 }

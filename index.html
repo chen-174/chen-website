@@ -3,8 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>原神-原神首页</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/tubiao.jpg" type="images/x-icon">
+    <style>
+    .jianjie{
+        width:90%;
+        height: 650px;
+        background-color:white;
+        margin:40px 5%;
+        box-shadow:3px 2px 1px lightgray;
+        border-radius: 10px;
+    }
+    .jianjie .msgs{
+        width:60%;
+        height: 100%;
+        float:left;
+        padding:40px;
+    }
+    .jianjie .msgs p{
+        font-size:20px;
+        margin:20px 0px;
+    }
+    .yuansu{
+        width:70px;
+        vertical-align: middle;/*垂直对齐*/
+    }
+
+    .jianjie span{
+        margin-left:10px;
+    }
+
+    .jianjie img.banner2{
+        width:40%;
+        height: 100%;
+        float:right;
+        padding:50px 20px;
+    }
+
+    .jietu{
+        width:90%;
+        height: 600px;
+        background-color:white;
+        margin:40px 5%;
+        box-shadow:3px 2px 1px lightgray;
+        border-radius: 10px;
+    }
+
+    .games li{
+        list-style:none;
+        width: calc(100%/3);
+    
+    }
+
+    .games{
+        width:100%;
+        height:auto;
+        padding:50px;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .jietu .msgs h1{
+        padding:40px;
+    }
+
+    .games li img{
+
+        width: 90%;
+        height: 80%;
+        display: inline-block;/*移动方向*/
+        transform:translateY(-20px);/*y轴 正为下，负为上*/
+    }
+
+    .games li h2{
+        display:inline-block;
+        transform: translateY(-265px);
+    }
+
+    .games li h3{
+        display:inline-block;
+        transform: translateY(-20px);
+        align-items: center;
+    }
+
+    .menus a:nth-child(1){
+        background-color:aquamarine;
+    }
+    </style>
     </head>
     <body>
         <div class="navs">
@@ -27,8 +113,7 @@
 
         <div class="jianjie">
             <div class="msgs">
-                <h1><img src="images/yuansu yan.png" alt
-                        class="yuansu"><span>原神简介</span></h1>
+                <h1><img src="images/yuansu yan.png" alt="" class="yuansu"><span>原神简介</span></h1>
                 <p>《原神》是由上海米哈游网络科技股份有限公司制作发行的一款开放世界冒险游戏,于2017年1月底立项
                     ,原初测试于2019年6月21日开启,再临测试于2020年3月19日开启,启程测试于2020年6月11日开启,PC版技术性开放测试于9月15日开启,公测于2020年9月28日开启。在数据方面,同在官方服务器的情况下,iOS、PC、Android平台之间的账号数据互通,玩家可以在同一账号下切换设备。</p>
                 <p>游戏发生在一个被称作“提瓦特大陆”的幻想世界，在这里，被神选中的人将被授予“神之眼”，导引元素之力。玩家将扮演一位名为“旅行者”的神秘角色，在自由的旅行中邂逅性格各异、能力独特的同伴们，和他们一起击败强敌，找回失散的亲人——同时，逐步发掘“原神”的真相。</p>
