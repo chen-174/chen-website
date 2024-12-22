@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.navs,.footer{
+    background-color:rgb(39, 140, 248);
+    width:100%;
+}
+
+.navs{
+    height:80px;
+    line-height:80px;
+    padding:0px 5%;
+    font-size:20px;
+}
+
+.navs .menus,.navs .logo{
+    float:left;
+}
+
+.navs .logo{
+    width:120px;
+}
+
+.navs .menus{
+    width:70%;
+    height:100%;
+    margin-left:30px;
+}
+
+a{
+    height:100%;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+}
+
+.navs .menus a{
+    width:calc(100%/6.4);
+    display:inline-block;
+
+}
+
+.navs .logins{
+    width:8%;
+    float:right;
+}
+
+.navs .logins a{
+    width:calc(100%/2.2);
+    display:inline-block;
+}
+
+.mains{
+    width:100%;
+    height:1000px;
+}
+
+img{
+    object-fit: cover;/*让图片伸展开来，不会错乱*/
+}
+
+.banner{
+    width:100%;
+    height:90vh;
+}
+
+.footer p1{
+    height:50px;
+    line-height:10px;
+    font-size: 20px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p2{
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:10px;
+    margin-right: 10px;
+}
+
+.jianjie{
+    width:90%;
+    height: 650px;
+    background-color:white;
+    margin:40px 5%;
+    box-shadow:3px 2px 1px lightgray;
+    border-radius: 10px;
+}
+
+.jianjie .msgs{
+    width:60%;
+    height: 100%;
+    float:left;
+    padding:40px;
+}
+
+.jianjie .msgs p{
+    font-size:20px;
+    margin:20px 0px;
+}
+
+.yuansu{
+    width:70px;
+    vertical-align: middle;/*垂直对齐*/
+}
+
+.jianjie span{
+    margin-left:10px;
+}
+
+.jianjie img.banner2{
+    width:40%;
+    height: 100%;
+    float:right;
+    padding:50px 20px;
+}
+
+.jietu{
+    width:90%;
+    height: 600px;
+    background-color:white;
+    margin:40px 5%;
+    box-shadow:3px 2px 1px lightgray;
+    border-radius: 10px;
+}
+
+.games li{
+    list-style:none;
+    width: calc(100%/3);
+    
+}
+
+.games{
+    width:100%;
+    height:auto;
+    padding:50px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.jietu .msgs h1{
+    padding:40px;
+}
+
+.games li img{
+
+    width: 90%;
+    height: 80%;
+    display: inline-block;/*移动方向*/
+    transform:translateY(-20px);/*y轴 正为下，负为上*/
+}
+
+.games li h2{
+    display:inline-block;
+    transform: translateY(-265px);
+}
+
+.games li h3{
+    display:inline-block;
+    transform: translateY(-20px);
+    align-items: center;
+}
